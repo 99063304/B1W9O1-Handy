@@ -1,0 +1,384 @@
+*{
+  font-family: 'Archivo', sans-serif;
+
+
+}
+.container{
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  position: absolute;
+  position: static;
+  position: sticky;
+
+}
+.contain{
+  padding: 0 ;
+  margin-left: 400px;
+  position: absolute;
+  position: static;
+  position: sticky;
+  width: 1300;
+}
+.onderwerp{
+  /* margin-top: 10px;
+  margin-bottom: 10px; */
+  margin-left: 25px;
+}
+.sub {
+  margin-top: 10px;
+}
+a{
+  color: #ffffff;
+  text-decoration: none;
+}
+nav, .sub{
+
+  width: 950px;
+  background-color: #222931 ;
+  position: relative;
+  top: 25px;
+  padding: 0px;
+  margin-left: 0px;
+}
+nav > ul > li, .sub > ul > li{
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 500;
+}
+nav > ul> li> a, .sub > ul > li > a{
+  color: #ffffff;
+  text-decoration: none;
+  line-height: 40px;
+}
+nav>ul, .sub{
+  display: inline-block;
+
+}
+.overons{
+  position: relative;
+}
+.overons:hover .sub{
+  top: 30px                                                                                                                                                                                                                               ;
+  display: block;
+
+}
+.overons:hover .sub ul li {
+  background-color: #ffe718;
+}
+.sub{
+  display: none;
+  position: absolute;
+  list-style: none;
+  width: 150px;
+
+}
+
+header{
+  height:400px;
+  background-image:url('img/header.jpg');
+  width:;
+  background-size: cover;
+  position: static;
+
+}
+
+section img 1{
+  position: absolute;
+
+}
+section{
+  margin-top: 50px;
+  margin-bottom:50px;
+}
+.een{
+  margin-left: 25px;
+  width: 300px;
+  background-image: url('img/banner-1.jpg');
+  height: 220px;
+}
+.een1{
+  margin-left: 25px;
+  width: 300px;
+  height: 220px;
+  line-height: 175px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  top: 0;
+  position: absolute;
+  color: #ffffff;
+
+}
+.een1 p{
+  padding-left: 10px;
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+}
+.een1:hover{
+  opacity: 0,5
+}
+.twee{
+  position: absolute;
+  left: 345px;
+  width: 300px;
+  background-image: url('img/banner-2.jpg');
+  height: 220px;
+  top: 0;
+}
+.twee1{
+  width: 300px;
+  height: 220px;
+  line-height: 175px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display:none;
+  top: 0;
+  left: 345px;
+  position: absolute;
+  color:  #ffffff;
+
+}
+.twee1 p{
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.drie{
+  position: absolute;
+  left: calc(345px + 325px );
+  width: 300px;
+  background-image: url('img/banner-3.jpg');
+  height: 220px;
+  top: 0;
+}
+.drie1{
+  position: absolute;
+  left: calc(345px + 325px );
+  width: 300px;
+  height: 220px;
+  line-height: 175px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display:none;
+  top: 0;
+  color: #ffffff;
+}
+.drie1 p{
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+.parent3:hover .drie1, .parent2:hover .twee1, .parent1:hover .een1{
+  display: inline-block;
+}
+.gelebalk{
+  font-weight:700;
+  background-color: #ffe718;
+  height: 100px;
+  padding-left: 160px;
+  margin-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.gelebalk h2{
+  font-size: 32px;
+  color: #222931;
+  display:inline-block;
+}
+.gelebalk h3{
+  font-size: 16px;
+  display:inline-block;
+  padding-left: 20px;
+}
+.button{
+  position: absolute;
+  font-weight: 500;
+  background-color: #ffffff;
+  display: inline-block;
+  margin-left: 840px;
+  padding-right:40px;
+  padding-left: 20px;
+  top: 860px;
+}
+.button h3{
+  font-size: 12px;
+  color: #222931;
+}
+.button1{
+  font-weight: 500;
+  display:none;
+  margin-left: 840px;
+  padding-right:40px;
+  padding-left: 20px;
+  background-color: #222931;
+  position: absolute;
+  width: 110px;
+  height: 40px;
+  top: 860px;
+}
+.section{
+
+}
+
+.button1 h3{
+  font-size: 12px;
+  color: #ffffff;
+}
+.button1:hover ,{
+  display: inline-block;
+}
+.blok1, .blok12{
+  width:300px;
+  background-color: #ffe718;
+  color: #222931;
+    position: absolute;
+  top: 250px;
+  display: inline-block;
+  left: 15px;
+  position: relative;
+  font-size: 22px;
+  line-height: 0px;
+}
+.blok1 h3, .blok12 h3 {
+  font-size:14px;
+  font-weight: 600;
+  display: block;
+  margin-left: 50px;
+
+}
+.blok1 h2, .blok12 h2{
+  margin-left: 50px;
+}
+.blok12{
+  background-color: #222931;
+  color: #ffffff;
+  position: absolute;
+  display: none;
+  margin-bottom: 0px;
+}
+
+
+i{
+  font-size: 32px;
+  font-weight: 600;
+  display:inline-block;
+  position: relative;
+  top: 50px;
+}
+
+.blok2, .blok22{
+  width:300px;
+  background-color: #ffe718;
+  color: #222931;
+  position: relative;
+  top: 250px;
+  display: inline-block;
+  left: 345px;
+  position: absolute;
+  font-size: 22px;
+  line-height: 0px;
+}
+.blok2 h3, .blok22 h3 {
+  font-size:14px;
+  font-weight: 600;
+  display: block;
+  margin-left: 50px;
+
+}
+.blok2 h2, .blok22 h2{
+  margin-left: 50px;
+}
+.blok22{
+  background-color: #222931;
+  color: #ffffff;
+  position: absolute;
+  display: none;
+}
+.blok3, .blok32{
+  width:300px;
+  background-color: #ffe718;
+  color: #222931;
+  position: relative;
+  top: 250px;
+  line-height: 0px;
+  display: inline-block;
+  left: calc(345px + 325px );
+  position: absolute;
+  font-size: 22px;
+
+}
+.blok3 h3, .blok32 h3{
+  display: block;
+  font-size:14px;
+  font-weight: 600;
+  margin-left: 50px;
+}
+.blok3 h2, .blok32 h2{
+  margin-left: 50px;
+}
+.blok32{
+  background-color: #222931;
+  color: #ffffff;
+  display: none;
+}
+.parent5:hover .blok12, .parent6:hover .blok22, .parent7:hover .blok32{
+  display:inline-block;
+}
+
+
+footer:nth-of-type(1){
+  top: 2000px;
+  height:200px;
+  background-image:url('img/footer.jpg');
+  width:;
+  background-size: cover;
+  position: static;
+}
+.footer{
+  margin-top: 250px;
+  width: 500px;
+  margin-left: 25px;
+  display: inline-block;
+  margin-right: 150px;
+}
+.footer h2{
+
+  font-size: 24px;
+  font-weight: 600;
+  top: 250px;
+  right: 250px;
+}
+.footer h3{
+
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.contact{
+  top: 250px;
+  width: 230px;
+  display: inline-block;
+  position: absolute;
+}
+.contact h3{
+  font-size: 12px;
+  font-weight: 400;
+  display:inline-block;
+  position: relative;
+  margin-left: 10px;
+
+}
+.contact i{
+  display: inline-block;
+  color: #aeb6be;
+}
+.contact p{
+  margin-top: 50px;
+}
+/* h3{
+  font-size:16px;
+  line-height: 24px;
+  font-weight: 500;
+} */
